@@ -28,6 +28,7 @@
    ReloadInstructions,
  } from 'react-native/Libraries/NewAppScreen';
  import MainContainer from './Navigation/MainContainer';
+ //import SignUpScreen from './Navigation/screens/SignUpScreen';
  
  // const Section = ({children, title}): Node => {
  //   const isDarkMode = useColorScheme() === 'dark';
@@ -57,21 +58,15 @@
  // };
  
  const App: () => Node = () => {
-   //  const isDarkMode = useColorScheme() === 'dark';
-   //  <MainContainer />
- 
-   // const backgroundStyle = {
-   //   backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-   // };
- 
+
    return (
      // <SafeAreaView style={backgroundStyle}>
      //   <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
      //   <ScrollView
      //     contentInsetAdjustmentBehavior="automatic"
      //     style={backgroundStyle}>
-     //     {/* <Header /> */}
-         <MainContainer />
+    //  //     {/* <Header /> */}
+          <MainContainer />
     
    
        );

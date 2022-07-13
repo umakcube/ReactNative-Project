@@ -3,22 +3,17 @@ import { StyleSheet, Text, View, ImageBackground, Image, TouchableWithoutFeedbac
 
 export default function DetailsScreen({ navigation }) {
     return (
-        // <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        //     <Text
-        //         onPress={() => navigation.navigate('Home')}
-        //         style={{ fontSize: 26, fontWeight: 'bold' }}>Details Screen</Text>
-        // </View>
         <View style={styles.border}>
         <Text style={styles.text}>Hi, Krithika Raa</Text>
         <Image style={styles.card} source = {require("../assets/ncashcard.png")}/>
         <View style={styles.container}>
-              <View style={{  backgroundColor: "#e5e4e2", width:180,height:200, borderRadius:9}} >
+              <View style={{  backgroundColor: "#e5e4e2", width:180,height:205, borderRadius:9}} >
               <Text style ={{top: 20, left:10,color:"#4682B4",fontSize:20,fontWeight:"normal"}}>FBA Wallet </Text>
               <Image style={{top: 30,left:50}}  source = {require("../assets/burger.png")}/> 
               <Text style ={{top: 40, left:50,color:"#4682B4",fontSize:17,fontWeight:"normal"}}>Balance </Text>
               <Text style ={{top: 40, left:25,color:"#4682B4",fontSize:23,fontWeight:"normal"}}>₹ 25,417.00 </Text>  
               </View>
-              <View style={{  backgroundColor: "#e5e4e2",  width:180, height:200, borderRadius:9, right:15 }} >
+              <View style={{  backgroundColor: "#e5e4e2",  width:180, height:205, borderRadius:9, right:15 }} >
               <Text style ={{top: 20, left:10,color:"#4682B4",fontSize:20,fontWeight:"normal"}}>Expense Wallet </Text> 
               <Image style={{top: 30,left:60}}  source = {require("../assets/plane.png")}/> 
               <Text style ={{top: 40, left:50,color:"#4682B4",fontSize:17,fontWeight:"normal"}}>Balance </Text>
@@ -26,13 +21,13 @@ export default function DetailsScreen({ navigation }) {
               </View>
         </View>
         <View style={styles.subcontainer}>
-              <View style={{  backgroundColor: "#e5e4e2", width:180, height:200, borderRadius:9}} >
+              <View style={{  backgroundColor: "#e5e4e2", width:180, height:205, borderRadius:9}} >
               <Text style ={{top: 20, left:10,color:"#4682B4",fontSize:20,fontWeight:"normal"}}>Claims </Text>
               <Image style={{top: 30,left:50}}  source = {require("../assets/wallet.png")}/> 
               <Text style ={{top: 40, left:40,color:"#4682B4",fontSize:17,fontWeight:"normal"}}>Applied claim </Text>
               <Text style ={{top: 40, left:30,color:"#4682B4",fontSize:23,fontWeight:"normal"}}>₹ 77,349.00 </Text>  
               </View>
-              <View style={{  backgroundColor: "#e5e4e2",  width:180, height:200, borderRadius:9, right:15 }} >
+              <View style={{  backgroundColor: "#e5e4e2",  width:180, height:205, borderRadius:9, right:15 }} >
               <Text style ={{top: 20, left:10,color:"#4682B4",fontSize:20,fontWeight:"normal"}}>De'tax Score </Text> 
               <Image style={{top: 30,left:60}}  source = {require("../assets/hand.png")}/> 
               <Text style ={{top: 35, left:40,color:"#4682B4",fontSize:17,fontWeight:"normal"}}>Savings score </Text>
@@ -48,7 +43,7 @@ export default function DetailsScreen({ navigation }) {
           border: {
              top:1,
             height: 695,
-            borderColor: 'white',
+            borderColor: '#e5e4e2',
             borderWidth: 3,
             borderRadius: 9,
             // fontFamily: "SFUIDisplay-Semibold",
