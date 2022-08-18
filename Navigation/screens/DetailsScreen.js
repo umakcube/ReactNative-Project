@@ -7,10 +7,11 @@ import {
   Image,
   TouchableWithoutFeedback,
 } from 'react-native';
+//import {NeuView, NeuButton, NeuInput} from 'react-native-neu-element';
 
 export default function DetailsScreen({navigation}) {
   return (
-    <View elevation={5} style={styles.border}>
+    <View style={styles.border}>
       <Text style={styles.text}>Hi, Krithika Raa</Text>
       <View style={styles.card}>
         <ImageBackground
@@ -64,6 +65,7 @@ export default function DetailsScreen({navigation}) {
             ₹ 25,417.00{' '}
           </Text>
         </View>
+
         <View
           style={{
             backgroundColor: '#e5e4e2',
@@ -206,15 +208,6 @@ const styles = StyleSheet.create({
     borderColor: '#e5e4e2',
     borderWidth: 3,
     borderRadius: 9,
-    // fontFamily: "SFUIDisplay-Semibold",
-
-    shadowColor: '#e5e4e2',
-    shadowOpacity: 0.9,
-    shadowRadius: 2,
-    shadowOffset: {
-      height: 7,
-      width: 6,
-    },
   },
   text: {
     fontSize: 20,
@@ -238,7 +231,7 @@ const styles = StyleSheet.create({
   text1: {
     color: 'white',
     fontSize: 23,
-    fontWeight: 'bold',
+    fontWeight: '400',
     marginTop: 120,
     marginLeft: 30,
   },
@@ -248,6 +241,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
+
+    //  -20px -20px 60px #ffffff;
   },
   subcontainer: {
     top: 15,

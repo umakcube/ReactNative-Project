@@ -78,6 +78,14 @@ export default function SettingsScreen({navigation}) {
             maximumTrackTintColor="#DAE6F4"
             thumbTintColor="#7B9BFF"
             marginTop={-29}
+            //thumbTouchSize={{width: 100, height: 100}}
+            style={{
+              width: 600,
+              height: 20,
+              borderRadius: 90,
+              // transform: [{scaleY: 5}],
+              transform: [{scaleX: 4}, {scaleY: 4}],
+            }}
           />
           <View style={styles.controlsContainer}>
             <NeuMorph
